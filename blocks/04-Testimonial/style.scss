@@ -1,0 +1,98 @@
+// $color-neutral: #ddd;
+// $color-light: #f1f1f1;
+// $radius: 4px;
+// $margin-default: 2em 0;
+
+// .wp-block-advanced-gutenberg-blocks-testimonial {
+//   margin: $margin-default;
+//   display: flex;
+//   align-items: center;
+// }
+
+// .wp-block-advanced-gutenberg-blocks-testimonial__picture {
+//   position: relative;
+
+//   .wp-block-advanced-gutenberg-blocks-testimonial__picture__image {
+//     width: 100px;
+//     height: 100px;
+//     margin-right: 30px;
+//     border-radius: 50%;
+//     overflow: hidden;
+//     border: 1px solid $color-neutral;
+//     font-size: 0.8em;
+//     background-size: cover;
+//     background-position: center;
+//   }
+// }
+
+// .wp-block-advanced-gutenberg-blocks-testimonial__bubble {
+//   position: relative;
+//   flex: 3;
+//   border: 1px solid $color-neutral;
+//   border-radius: 12px;
+//   padding: 12px;
+//   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+// }
+
+// .wp-block-advanced-gutenberg-blocks-testimonial__bubble--with-arrow {
+//   &:before {
+//     content: '';
+//     position: absolute;
+//     display: block;
+//     top: calc(50% - 13px);
+//     left: -17px;
+//     border-top: 13px solid transparent;
+//     border-right: 16px solid $color-neutral;
+//     border-bottom: 13px solid transparent;
+//   }
+
+//   &:after {
+//     content: '';
+//     position: absolute;
+//     display: block;
+//     top: calc(50% - 12px);
+//     left: -16px;
+//     border-top: 12px solid transparent;
+//     border-right: 16px solid white;
+//     border-bottom: 12px solid transparent;
+//   }
+// }
+
+// .wp-block-advanced-gutenberg-blocks-testimonial__content {
+//   font-style: italic;
+//   color: #aaa;
+
+//   p {
+//     font-size: 1.1em;
+//   }
+
+//   p:last-child {
+//     margin-bottom: 0;
+//   }
+
+//   & p:first-child:before {
+//     content: '“ ';
+//   }
+
+//   & p:last-child:after {
+//     content: ' ”';
+//     display: inline;
+//   }
+// }
+
+// .wp-block-advanced-gutenberg-blocks-testimonial__signature {
+//   display: inline-block;
+//   float: right;
+//   margin-right: 24px;
+//   margin-top: 10px;
+
+//   .wp-block-advanced-gutenberg-blocks-testimonial__name {
+//     margin: 0;
+//   }
+
+//   .wp-block-advanced-gutenberg-blocks-testimonial__company {
+//     margin: 0;
+//     color: #aaa;
+//     font-size: 0.9em;
+//   }
+// }

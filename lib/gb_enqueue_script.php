@@ -21,15 +21,15 @@ function enqueue_block_editor_assets() {
 		_get_plugin_url() . $block_path,
 		[ 'wp-i18n', 'wp-element', 'wp-blocks', 'wp-components', 'wp-editor', 'wp-data' ],
 		false,
-		true,
-		filemtime( _get_plugin_directory() . $block_path )
+		true
+		// filemtime( _get_plugin_directory() . $block_path )
 	);
 	// Enqueue optional editor only styles
 	wp_enqueue_style(
 		'guteblog-redq-editor-css',
 		_get_plugin_url() . $style_path,
-		[ ],
-		filemtime( _get_plugin_directory() . $style_path )
+		[ ]
+		// filemtime( _get_plugin_directory() . $style_path )
 	);
 }
 
@@ -43,8 +43,8 @@ function enqueue_assets() {
 	wp_enqueue_style(
 		'guteblog-redq',
 		_get_plugin_url() . $style_path,
-		null,
-		filemtime( _get_plugin_directory() . $style_path )
+		null
+		// filemtime( _get_plugin_directory() . $style_path )
 	);
 }
 
@@ -61,8 +61,8 @@ function enqueue_frontend_assets() {
 	wp_enqueue_script(
 		'guteblog-redq-frontend',
 		_get_plugin_url() . $block_path,
-		[],
-		filemtime( _get_plugin_directory() . $block_path )
+		[]
+		// filemtime( _get_plugin_directory() . $block_path )
 	);
 }
 
